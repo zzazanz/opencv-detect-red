@@ -49,7 +49,7 @@ if cap.isOpened():
 
         cv2.imshow("camera", flip)
         
-        if cv2.waitKey(1) == 27:
+        if cv2.waitKey(10) == 27:
             break
 
 cap.release()
